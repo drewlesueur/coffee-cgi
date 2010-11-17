@@ -1,4 +1,4 @@
 These are the files required to run coffeescript files as a cgi script
 
 So files ending in .coffee will be ran, kind of like your used to with php files
-
+cgi.js was taken from https://github.com/pufuwozu/node-cgi
