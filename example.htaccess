@@ -1,10 +1,10 @@
 <VirtualHost *:80>
-ServerName anything.the.tl
+ServerName my-server-name.com
 #ServerAlias *.the.tl
 ServerAlias *
-DirectoryIndex index.* index.html index.php index.js index.cs index.coffee
+DirectoryIndex index.* index.html index.php index.cs
 UseCanonicalName Off
 Options +ExecCGI
 AddHandler cgi-script .coffee .cs
-VirtualDocumentRoot /root/workspace/sites/%0 
+#VirtualDocumentRoot /root/workspace/sites/%0 
 </VirtualHost>
