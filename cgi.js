@@ -72,3 +72,6 @@ var Server = function(listener, options) {
 exports.createServer = function(listener, options) {
     return new Server(listener, options);
 };
+
+exports.Request = Request;
+exports.Response = Response;
