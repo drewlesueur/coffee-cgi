@@ -22,7 +22,7 @@ app.use (req, res, next) ->
   next()
 
  
-app.get "/test.cs",  (req, res) ->
+app.get "/expresst.cs",  (req, res) ->
   res.send req.expresscgi
 
 #app.emit 'request', new cgi.Request(), new cgi.Response() 
